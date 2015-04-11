@@ -6,6 +6,8 @@
 </head>
 <body>
     <header>
+      <img class= "header"src="imagen.png">   
+        
         <div class="head">
         	SISTEMAS WEB
         </div>
@@ -23,9 +25,14 @@
 
         <ul class="clases"> 
             <li class="clases">
+
+
                 <div class="register">
+
+                    <img class="registrar" src="bart_y_lisa.gif">
+
                     <h1>Registrate</h1>
-                    <div class="registrarse"> Para que usted pueda interactuar con el portal laprensa.com.bo, es necesario que llene una hoja de registro. Quienes se registren en nuestro sitio proporcionando sus datos personales y su dirección de correo electrónico podrán utilizar distintos instrumentos para participar en la página.  </div>
+                    <div class="registrarse"> Para que usted pueda interactuar con el portal laprensa.com.bo, es necesario que llene una hoja de registro. Quienes se registren en nuestro sitio proporcionando sus datos personales y su dirección de correo electrónico podrán utilizar distintos instrumentos para participar en la página. Para que usted pueda interactuar con el portal laprensa.com.bo, es necesario que llene una hoja de registro. Quienes se registren en nuestro sitio proporcionando sus datos personales y su dirección de correo electrónico podrán utilizar distintos instrumentos para participar en la página.  </div>
                     <br>
                     <br>
                     <br>
@@ -57,7 +64,24 @@
                             </div>
 
                            <br>     
-                          <label for="comentario">Comentarios</label><br>
+
+                          <label for="sexo">Sexo</label><br>
+                          <input type = "radio"   id = "sizeSmall"  value = "Femenino" checked = "checked" />
+                          <label for = "sizeSmall">Femenino</label>
+
+                          <input type = "radio"   id = "sizeSmall"  />
+                          <label for = "sizeSmall">Masculino</label>
+                           <br>
+                           <br>
+                           <label for="color">Color de Polera</label><br>
+                           <input name="color" type="color" value="#f3f3f3"/>
+                           <br>
+                           <br>
+                           <label for="fecha">Fecha de Nacimiento</label><br>
+                           <input type="date" name="fecha">
+                            <br>
+                            <br>
+                            <label for="comentario">Comentarios</label><br>
                           <textarea name="comment" id="registerComment"></textarea><br><br>
                           <input class="btn" type="submit" id= "botonRegistrar" value="Registrarse" />
 

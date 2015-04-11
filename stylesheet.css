@@ -7,6 +7,28 @@ header{
 
 }
 
+img.header {
+  float: left; 
+  width:15%;
+   height:100;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   margin-left:5px; 
+   margin-right:5px;
+}
+
+
+img.registrar {
+  width:300px;
+  height: 200px;
+  position: fixed;
+  margin-top: 300px;
+  margin-left: 150px;
+  border: 5px solid #a1a1a1;
+  margin: 10px;
+  padding: 5px;
+  background: grey;
+}
 
 
 div.head {
@@ -65,7 +87,7 @@ li.clases {
   float: center; 
   margin-right: -5px; 
   font-family: courier;
-  padding: 0 50px; 
+  padding: 0 10px; 
   display: inline;
 
 }
@@ -103,7 +125,7 @@ h1.precio {
   font-family: courier;
   font-weight: 100;
   color: grey;
-  margin-left: 250px;
+  text-align: center;
 }
 
 
@@ -117,7 +139,7 @@ div.register{
   color: grey;
   font-family: courier;
   display: inline-block;
-  width: 250px;
+  width: 300px;
   height: 250px;
   margin-right: 200px;
   font-size: 15;
@@ -163,7 +185,7 @@ select.circle{
 
 
 table{
-  margin-left: 400px;
+  margin-left: 360px;
   margin-top: 70px;
   border: 1px solid #a1a1a1;
     border-radius: 10px;
